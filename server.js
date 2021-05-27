@@ -14,7 +14,7 @@ app.post ('/api/sendMail', (req, res) => {
         service: 'gmail',
         auth: {
             user: 'misopsriancom@gmail.com',
-            pass: '@dm1ndeleongen0'
+            pass: 'dg@dmin89'
         }
     });
 
