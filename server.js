@@ -13,8 +13,8 @@ app.post ('/api/sendMail', (req, res) => {
     const transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'misopsriancom@gmail.com',
-            pass: 'dg@dmin89'
+            user: 'hrqrcode21@gmail.com',
+            pass: 'adminqr2021'
         }
     });
 
