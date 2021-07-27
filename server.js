@@ -22,7 +22,7 @@ app.post ('/api/sendMail', (req, res) => {
     from: 'misopsriancom@gmail.com',
     to: 'hrqrcode21@gmail.com',
     subject: 'RCi Health Checklist Form',
-    text: req.body.msg
+    html: req.body.msg
     };
 
     transporter.sendMail(mailOptions, function(error, info){
